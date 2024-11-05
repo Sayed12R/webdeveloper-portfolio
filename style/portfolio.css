@@ -70,10 +70,11 @@ nav a{
 }
 /* main section style */
 .about{
-    padding: 120px;
+    padding:  50px;
     background-color: #fff8f3;
-    border-radius: 20px;
-    margin-top: 50ppx;
+    border-radius: 10px;
+    margin-top: 50px;
+    
 }
 
 .section-title{
@@ -81,10 +82,79 @@ nav a{
     color: #181818;
     font-size: 25px;
     font-weight: 700;
+  
 }
 .section-descrip{
     text-align: center;
-    color: #757575;
+    color: black;
     font-size: 18px;
+    padding: 30px 150px;
 }
-/* About */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.info-con{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.about-info{
+   text-align: center;
+
+}
+#id2{
+    padding: 0px 150px;
+}
+#id3{
+    padding-bottom: 60px;
+}
+.skill-con{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+.skill{
+    padding: 30px 60px;
+    background: #fff8f3;
+    box-shadow: 5px 6px 10px 0px rgba(0, 0, 0, 0.6);
+}
+.skill-des{
+    color: black;
+}
+main section{
+    margin-top: 100px;
+}
+.resume-con{
+    display: flex;
+    gap: 100px;
+}
+.rti{
+    color: lightslategray;
+}
+.h4{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.h3{
+    
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.h3-title{
+    font-style: oblique;
+   font-weight: bolder;
+   font-size: 30px;
+}
+.button{
+   text-align: center;
+   margin-top: 30px;
+}
+
+
+/* .resume-con hr{
+    margin: 40px;
+} */
