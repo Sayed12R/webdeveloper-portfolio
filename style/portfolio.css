@@ -154,7 +154,35 @@ main section{
    margin-top: 30px;
 }
 
-
-/* .resume-con hr{
-    margin: 40px;
-} */
+/* footer style */
+.footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+}
+.social-link a{
+    margin-right: 25px;
+    /* padding-right: 10px; */
+}
+.footer-col-1, .footer-col-2{
+    margin-top: 50px;
+    padding-left: 200px;
+}
+.footer-title{
+    margin-bottom: 5px;
+}
+.footer-descrip{
+    margin-top: 0px;
+    width: 500px;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 40px;
+    border: 0px;
+    width: 100%;
+}
+.contact{
+    margin-top: 20px;
+}
